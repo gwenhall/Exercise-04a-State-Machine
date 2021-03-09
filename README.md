@@ -1,18 +1,3 @@
-# Exercise-04a-State-Machine
-Exercise for MSCH-C220, 3 March 2021
-
-A demonstration of this exercise is available here: [https://youtu.be/d9I96qieMP8](https://youtu.be/d9I96qieMP8)
-
-This exercise is designed to begin our 2D Platformer by creating an animated sprite and a State Machine. The concepts behind this exercise will be outlined in class.
-
-Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-04a-State-Machine. *Edit the LICENSE and replace BL-MSCH-C220-S21 with your full name.* Commit your changes.
-
-Clone the repository to a Local Path on your computer.
-
-Open Godot. Import the project.godot file and open the "State Machine" project.
-
-You should see a very basic 2D Platformer with tiles made from the Godot Logo. A Player (KinematicBody2D) has already been added with a Camera2D, an AnimatedSprite and CollisionShape, and the skeleton of a state machine. The player also has a label that hovers above his head to display its current state.
-
 Select the AnimatedSprite in the Scene panel. In the Inspector Panel, select Frames->New SpriteFrames. Then select Frames again, and choose Edit.
 
 The Animate Frames panel should appear at the bottom of the window. In the list on the left, rename the "default" animation to Idle (be careful about capitalization). Then press the Sprite Sheet icon (looks like a waffle) and choose res://Assets/player.png. You should now see the player sprite sheet. At the top of the window, change Horizonatal to 10 and Vertical to 5. Select the image in the top left corner, and press the "Add 1 Frame(s)" button.
